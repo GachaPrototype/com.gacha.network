@@ -1,0 +1,10 @@
+{
+  "name": "Gacha.Network",
+  "rootNamespace": "GachaGame.Network",
+  "references": [
+    "Gacha.Core",
+    "Gacha.Contracts"
+  ],
+  "autoReferenced": true,
+  "noEngineReferences": false
+}
