@@ -1,10 +1,11 @@
 using System;
 using System.Collections;
-using GachaGame.Contracts.Api;
 using UnityEngine;
 
 namespace GachaGame.Network
 {
+    using GachaGame.Contracts.Api;
+
     /// Vòng đời phiên đăng nhập: đăng nhập, gia hạn, đăng xuất, khôi phục.
     ///
     /// Gắn cùng GameObject với APIClient. Trong Awake nó tự đăng ký làm
